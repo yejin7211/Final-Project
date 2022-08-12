@@ -4,153 +4,190 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Final Project</title>
-	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="sylesheet" href="./grid.min.css" />
-	<link rel="stylesheet" href="./style.css" />
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+		  rel="stylesheet">
+	<link rel="stylesheet" href="./grid.min.css">
+	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="landing">
-					<h1>
-						Change your career,<br/>
-						Change your life
-					</h1>
-					<span>Get ahead with expert-led training in coding &amp; design</span>
-					<div class="labels">
-						<button type="button" class="label_1">
-							Apply now
-						</button>
-						<button type="button" class="label_2">
-							Learn more
-						</button>
-					</div>
-				</div>
-			</div>
-			
-			
-			<div class="col-12">
-				<div class="testimonials">
-					<div class="title_1">
-						<h2>
-							Master the Fundamentals while Exploring new Tech
-						</h2>
-						<p>
-							We teach cutting-edge tech Full Stack Javascript as well as Computer Science fundamentals. 
-						</p>
-					</div>
-					<div class="title_2">
-						<h2>
-							Develop Production Level Web Applications
-						</h2>
-						<p>
-							You put your knowledge into action with carefully designed assignments and personal software engineering projects.
-						</p>
-					</div>
-				</div>
-			</div>
-			
-			
-			<div class="col-12">
-				<div class="program">
-					<div class="header">
-						<span>Program</span>
-						<h1>
-							Frontend Dev.<br/>
-							Immersive Course
+	<section class="landing">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="landing-content">
+						<h1 class="landing-title">
+							Change your career,<br />
+							Change your life
 						</h1>
-						<p>
-							Your best course for career transformation in front-end developement. This full-time bootcamp features expert instruction, one-on-one career coaching, and connections to top employers to get you hired.
+						<p class="landing-desc">
+							Get ahead with expert-led training in<br />
+							coding &amp; design
 						</p>
-					</div>
-					
-					<div class="programs">
-						<a href="#" target="_blank" class="program_1">
-							<div>
-								<img src="./assets/img-fulltime-campus.png" alt="" />
-								<h2>Full-Time On Campus</h2>
-							</div>
-						</a>
-						<a href="#" target="_blank">
-							<div class="program_2">
-								<img src="./assets/img-fulltime-remote.png" alt="" />
-								<h2>Full-Time Remote</h2>
-							</div>
-						</a>
-						<a href="#" target="_blank">
-							<div class="program_3">
-								<img src="./assets/img-parttime-flex.png" alt="" />
-								<h2>Part-Time Flex</h2>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-			
-			
-			<div class="col-12">
-				<div class="curriculum">
-					<div class="curi-header">
-						<span>Curriculum</span>
-						<h1>
-							Dive into the web development
-						</h1>
-						<p>
-							Dive into the software development environment and the basics of computing, networks, and data structures.
-						</p>
-						<button type="button">
-							Apply now
-						</button>
-					</div>
-					
-					<div class="curi-detail">
-						<p><strong>Real-World Projects.</strong> Solve challenges that professional engineers face as you work individually and in teams with designers.</p>
-						<p><strong>Individualised Instructor Support.</strong>Get guidance, feedback, and more during scheduled one-on-one check-ins.</p>
-					</div>
-				</div>
-			</div>
-			
-			
-			<div class="col-12">
-				<div class="banner">
-					<img src="./assets/img-banner.png" alt="" />
-					
-					<div class="banner-centent">
-						<div class="banner-header">
-							<h1>
-								Stay with us
-							</h1>
-							<p>
-								Subscribe to our email newsletter to<br/>
-								stay up to date on the latest updates
-							</p>
-						</div>
 
-						<div class="banner-form">
-							<input type="email" placeholder="Enter your email" />
-							<button type="submit">
-								Get started
-							</button>
+						<div class="button-group">
+							<a href="#" class="fill-button">Apply now</a>
+							<a href="#" class="fill-button inverted">Learn more</a>
 						</div>
-						
-						<span>
-							Cancel any time. Check out 
-							<a href="#" target="_blank">Terms of Use.</a>
-						</span>
 					</div>
-				</div>
-			</div>
-			
-			
-			<div class="col-12">
-				<div class="footer">
-					<a href="#" target="_blank">Terms</a>
-					<a href="#" target="_blank">Privacy</a>
-					<a href="#" target="_blank">License</a>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
+	
+	<section class="testimonials">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<h2>
+						Master the Fundamentals while Exploring new Tech
+					</h2>
+					<p>
+						We teach cutting-edge tech Full Stack Javascript
+						as well as Computer Science fundamentals. 
+					</p>
+				</div>
+				<div class="col-12 col-md-6">
+					<h2>
+						Develop Production Level Web Applications
+					</h2>
+					<p>
+						You put your knowledge into action with 
+						carefully designed assignments and personal software engineering projects.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="program section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 col-md-12">
+					<div class="program-header">
+						<strong class="section-category">Program</strong>
+						<h1 class="section-title">
+							Frontend Dev.<br />
+							Immersive Course
+						</h1>
+						<p class="section-desc">
+							Your best course for career transformation in front-end developement.
+							This full-time bootcamp features expert instruction, one-on-one career coaching,
+							and connections to top employers to get you hired.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-12 col-md-4">
+					<a href="#" class="program-box active">
+						<img src="./assets/img-fulltime-campus.png"
+							 alt="Full-Time On Campus" />
+						<strong>Full-Time On Campus</strong>
+					</a>
+				</div>
+				<div class="col-12 col-md-4">
+					<a href="#" class="program-box active">
+						<img src="./assets/img-fulltime-remote.png"
+							 alt="Full-Time Remote" />
+						<strong>Full-Time Remote</strong>
+					</a>
+				</div>
+				<div class="col-12 col-md-4">
+					<a href="#" class="program-box active last-box">
+						<img src="./assets/img-parttime-flex.png"
+							 alt="Part-Time Flex" />
+						<strong>Part-Time Flex</strong>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="curriculum section">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-12 col-md-6">
+					<strong class="section-category">Curriculum</strong>
+					<h1 class="section-title">
+						Dive into the web development
+					</h1>
+					<p class="section-desc">
+						Dive into the software development environment
+						and the basics of computing, networks, and data structures.
+					</p>
+					<a href="#" class="fill-button">
+						Apply now
+					</a>
+				</div>
+				<div class="col-12 col-md-6">
+					<img src="./assets/img-curriculum.png"
+						 alt="Curriculum" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<p>
+						<strong>Real-World Projects.</strong> Solve challenges that professional engineers face 
+						as you work individually and in teams with designers.
+					</p>
+				</div>
+				<div class="col-12 col-md-6">
+					<p>
+						<strong>Individualised Instructor Support.</strong>
+						Get guidance, feedback, and more during scheduled one-on-one check-ins.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<aside class="banner">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-12 col-md-5">
+					<div class="banner-image">
+						<img src="./assets/img-banner.png"
+							 alt="Stay with us" />
+					</div>
+				</div>
+				<div class="col-12 col-md-7">
+					<h1 class="banner-title">
+						Stay with us
+					</h1>
+					<p class="banner-desc">
+						Subscribe to our email newsletter to stay up
+						to date on the latest updates
+					</p>
+					<form action="" method="POST"  class="banner-form">
+						<div class="input-group">
+							<input type="email" placeholder="Enter your email" />
+							<button type="submit" class="fill-button">
+								Get started
+							</button>
+						</div>
+						<p class="form-notice">
+							Cancel any time. Check out 
+							<a href="#">Terms of Use.</a>
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</aside>
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-12">
+					<div class="footer-link-group">
+						<a href="#">Terms</a>
+						<a href="#">Privacy</a>
+						<a href="#">License</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
